@@ -1,0 +1,38 @@
+{
+  "name": "ngx-tagsinput",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
+    "@angular/core": "^6.0.0-rc.0 || ^6.0.0"
+  },
+  "description": "Multiple tags input element",
+  "keywords": [
+    "ngx",
+    "ngx-tags",
+    "ngx-chips",
+    "ngx-tagsinput",
+    "ngx-input",
+    "angular 6",
+    "angular 5",
+    "angular 4",
+    "angular 2",
+    "angularjs",
+    "Chips",
+    "tags",
+    "tags-input",
+    "input tags",
+    "multiple tags",
+    "multiple tags input",
+    "multi select"
+  ],
+  "author": "Surya Teja Kavutarapu",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SuryaKavutarapu/ngx-tagsinput.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SuryaKavutarapu/ngx-tagsinput/issues"
+  },
+  "homepage": "https://github.com/SuryaKavutarapu/ngx-tagsinput"
+}

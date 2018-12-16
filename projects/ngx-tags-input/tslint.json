@@ -1,0 +1,16 @@
+{
+    "extends": "../../tslint.json",
+    "rules": {
+        "directive-selector": [
+            true,
+            "attribute",
+            "NgxTagsInput",
+            "camelCase"
+        ],
+        "component-selector": [
+            true,
+            "element",
+            "NgxTagsInput",
+        ]
+    }
+}
