@@ -1,12 +1,12 @@
 import { TestBed } from '@angular/core/testing';
 
-import { NgxTagsInputService } from './ngx-tags-input.service';
+import { NgxMultiTagsInputService } from './ngx-tags-input.service';
 
-describe('NgxTagsInputService', () => {
+describe('NgxMultiTagsInputService', () => {
   beforeEach(() => TestBed.configureTestingModule({}));
 
   it('should be created', () => {
-    const service: NgxTagsInputService = TestBed.get(NgxTagsInputService);
+    const service: NgxMultiTagsInputService = TestBed.get(NgxMultiTagsInputService);
     expect(service).toBeTruthy();
   });
 });

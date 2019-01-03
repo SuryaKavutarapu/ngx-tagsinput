@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NgxTagsInputComponent } from './ngx-tags-input.component';
+import { NgxMultiTagsInputComponent } from './ngx-tags-input.component';
 
 describe('NgxTagsInputComponent', () => {
-  let component: NgxTagsInputComponent;
-  let fixture: ComponentFixture<NgxTagsInputComponent>;
+  let component: NgxMultiTagsInputComponent;
+  let fixture: ComponentFixture<NgxMultiTagsInputComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ NgxTagsInputComponent ]
+      declarations: [ NgxMultiTagsInputComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(NgxTagsInputComponent);
+    fixture = TestBed.createComponent(NgxMultiTagsInputComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

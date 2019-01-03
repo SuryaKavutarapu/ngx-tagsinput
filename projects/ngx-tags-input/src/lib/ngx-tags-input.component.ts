@@ -1,7 +1,7 @@
 import { Component, OnInit, Output, Input, EventEmitter } from '@angular/core';
 
 @Component({
-  selector: 'ngxTagsInput',
+  selector: 'ngxMultiTagsInput',
   template: `
   <div>
   <div class="ngx-inputcontainer">
@@ -76,7 +76,7 @@ import { Component, OnInit, Output, Input, EventEmitter } from '@angular/core';
      color: #6b6b6b;
    }`]
 })
-export class NgxTagsInputComponent implements OnInit {
+export class NgxMultiTagsInputComponent implements OnInit {
   tags: any[];
   @Input()
   label: string;
@@ -105,7 +105,7 @@ export class NgxTagsInputComponent implements OnInit {
     this.tags = [];
   }
 
-  private removeTag(value: string) {
+  public removeTag(value: string) {
     const index = this.tags.indexOf(value);
     if (index !== -1) {
       this.tags.splice(index, 1);
@@ -113,7 +113,7 @@ export class NgxTagsInputComponent implements OnInit {
     this.output.emit(this.tags);
   }
 
-  private inputTag(event: any) {
+  public inputTag(event: any) {
     if (event.key === 'Enter' || event.key === '13') {
       if (event.target.value !== '') {
         this.tags.push(event.target.value);

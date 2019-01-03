@@ -122,12 +122,19 @@
         }
       }
     },
-    "NgxTagsInput": {
+    "NgxMultiTagsInput": {
       "root": "projects/ngx-tags-input",
       "sourceRoot": "projects/ngx-tags-input/src",
       "projectType": "library",
-      "prefix": "NgxTagsInput",
+      "prefix": "NgxMultiTagsInput",
       "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/ngx-tags-input/tsconfig.lib.json",
+            "project": "projects/ngx-tags-input/ng-package.json"
+          }
+        },
         "build": {
           "builder": "@angular-devkit/build-ng-packagr:build",
           "options": {

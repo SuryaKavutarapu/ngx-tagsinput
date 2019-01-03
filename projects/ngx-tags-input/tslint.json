@@ -4,13 +4,13 @@
         "directive-selector": [
             true,
             "attribute",
-            "NgxTagsInput",
+            "NgxMultiTagsInput",
             "camelCase"
         ],
         "component-selector": [
             true,
             "element",
-            "NgxTagsInput",
+            "NgxMultiTagsInput",
         ]
     }
 }

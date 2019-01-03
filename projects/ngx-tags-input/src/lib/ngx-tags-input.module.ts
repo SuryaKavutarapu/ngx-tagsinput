@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { NgxTagsInputComponent } from './ngx-tags-input.component';
+import { NgxMultiTagsInputComponent } from './ngx-tags-input.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { BrowserModule } from '@angular/platform-browser';
@@ -11,7 +11,7 @@ import { BrowserModule } from '@angular/platform-browser';
     FormsModule,
     ReactiveFormsModule
   ],
-  declarations: [NgxTagsInputComponent],
-  exports: [NgxTagsInputComponent]
+  declarations: [NgxMultiTagsInputComponent],
+  exports: [NgxMultiTagsInputComponent]
 })
-export class NgxTagsInputModule { }
+export class NgxMultiTagsInputModule { }

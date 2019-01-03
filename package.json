@@ -39,7 +39,6 @@
     "url": "https://github.com/SuryaKavutarapu/ngx-tagsinput/issues"
   },
   "homepage": "https://github.com/SuryaKavutarapu/ngx-tagsinput",
-  "private": true,
   "dependencies": {
     "@angular/animations": "^6.1.0",
     "@angular/common": "^6.1.0",
